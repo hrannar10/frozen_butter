@@ -25,7 +25,9 @@ jar {
 ```java
 java -jar build/libs/frozen_butter.jar
 ```
+
 This should give output something like this and this only work on raspberry pi
+```sh
 ----------------------------------------------------
 HARDWARE INFO
 ----------------------------------------------------
@@ -39,4 +41,4 @@ Processor         :  0
 Hardware Revision :  0003
 Is Hard Float ABI :  true
 Board Type        :  ModelB_Rev1
-
+```
