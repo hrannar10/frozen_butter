@@ -11,7 +11,7 @@ gradle tasks
 * mainClassName = "net.frozen_butter.filename.classname"
 * apply plugin: 'application'
 * Under dependencies: compile files('opt/pi4j/lib/pi4j-core.jar')
-* And this code:
+* And add this code and the end:
 ```sh
 jar {
     manifest {
