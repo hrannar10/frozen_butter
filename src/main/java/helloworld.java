@@ -1,5 +1,7 @@
 package net.frozen_butter.helloworld;
 
+import com.google.gson.Gson;
+
 import com.pi4j.system.NetworkInfo;
 import com.pi4j.system.SystemInfo;
 
