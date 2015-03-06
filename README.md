@@ -1,5 +1,5 @@
 # Frozen Butter
-
+[![Build Status](https://travis-ci.org/hrannar10/frozen_butter.svg?branch=master)](https://travis-ci.org/hrannar10/frozen_butter)
 
 curl -s get.pi4j.com | sudo bash
 
