@@ -2,14 +2,16 @@
 
 
 curl -s get.pi4j.com | sudo bash
+
 gradle init --type java-library
+
 gradle tasks
 
-Modify build.gradle with this line
-- mainClassName = "net.frozen_butter.filename.classname"
-- apply plugin: 'application'
-- Under dependencies: compile files('opt/pi4j/lib/pi4j-core.jar')
-- And this code:
+##Modify build.gradle with this line
+* mainClassName = "net.frozen_butter.filename.classname"
+* apply plugin: 'application'
+* Under dependencies: compile files('opt/pi4j/lib/pi4j-core.jar')
+* And this code:
 jar {
     manifest {
         attributes 'Main-Class': 'net.frozen_butter.filename.classname'
