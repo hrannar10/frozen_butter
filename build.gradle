@@ -10,6 +10,7 @@
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'groovy'
 
 mainClassName = "net.frozen_butter.helloworld.helloworld"
 
@@ -25,14 +26,15 @@ dependencies {
     // The production code uses the SLF4J logging API at compile time
     compile 'org.slf4j:slf4j-api:1.7.7'
     compile 'com.google.code.gson:gson:2.3'
-    compile 'com.pi4j:pi4j-gpio-extension:0.0.5'
-
+    //compile 'com.pi4j:pi4j-parent:pom:1.0-SNAPSHOT'
+    //compile 'com.pi4j:pi4j-gpio-extension:0.0.5'
+    compile 'com.pi4j:pi4j-core:0.0.5'
     // Local file
     //compile files('/opt/pi4j/lib/pi4j-core.jar')
-    compile files('/home/pi/project/frozen_butter/libs/pi4j-core.jar')
-    compile files('/home/pi/project/frozen_butter/libs/pi4j-device.jar')
-    compile files('/home/pi/project/frozen_butter/libs/pi4j-gpio-extension.jar')
-    compile files('/home/pi/project/frozen_butter/libs/pi4j-service.jar')
+    //compile files('/home/pi/project/frozen_butter/libs/pi4j-core.jar')
+    //compile files('/home/pi/project/frozen_butter/libs/pi4j-device.jar')
+    //compile files('/home/pi/project/frozen_butter/libs/pi4j-gpio-extension.jar')
+    //compile files('/home/pi/project/frozen_butter/libs/pi4j-service.jar')
 
     // Declare the dependency for your favourite test framework you want to use in your tests.
     // TestNG is also supported by the Gradle Test task. Just change the
