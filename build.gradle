@@ -29,6 +29,9 @@ dependencies {
     // Local file
     //compile files('/opt/pi4j/lib/pi4j-core.jar')
     compile files('/home/pi/project/frozen_butter/libs/pi4j-core.jar')
+    compile files('/home/pi/project/frozen_butter/libs/pi4j-device.jar')
+    compile files('/home/pi/project/frozen_butter/libs/pi4j-gpio-extension.jar')
+    compile files('/home/pi/project/frozen_butter/libs/pi4j-service.jar')
 
     // Declare the dependency for your favourite test framework you want to use in your tests.
     // TestNG is also supported by the Gradle Test task. Just change the
@@ -40,6 +43,6 @@ dependencies {
 jar {
     manifest {
         attributes 'Main-Class': 'net.frozen_butter.helloworld.helloworld'
-        attributes 'Class-Path': '/home/pi/project/frozen_butter/libs/pi4j-core.jar'
+        attributes 'Class-Path': '/home/pi/project/frozen_butter/libs/*.jar'
     }
 }
