@@ -15,16 +15,16 @@ public class helloworld {
                 System.out.println("HARDWARE INFO");
                 System.out.println("----------------------------------------------------");
                 //System.out.println("Serial Number     :  " + SystemInfo.getSerial());
-                System.out.println("CPU Revision      :  " + SystemInfo.getCpuRevision());
-                System.out.println("CPU Architecture  :  " + SystemInfo.getCpuArchitecture());
-                System.out.println("CPU Part          :  " + SystemInfo.getCpuPart());
-                System.out.println("CPU Temperature   :  " + SystemInfo.getCpuTemperature());
-                System.out.println("CPU Core Voltage  :  " + SystemInfo.getCpuVoltage());
-                System.out.println("CPU Model Name    :  " + SystemInfo.getModelName());
-                System.out.println("Processor         :  " + SystemInfo.getProcessor());
-                System.out.println("Hardware Revision :  " + SystemInfo.getRevision());
-                System.out.println("Is Hard Float ABI :  " + SystemInfo.isHardFloatAbi());
-                System.out.println("Board Type        :  " + SystemInfo.getBoardType().name());
+                //System.out.println("CPU Revision      :  " + SystemInfo.getCpuRevision());
+                //System.out.println("CPU Architecture  :  " + SystemInfo.getCpuArchitecture());
+                //System.out.println("CPU Part          :  " + SystemInfo.getCpuPart());
+                //System.out.println("CPU Temperature   :  " + SystemInfo.getCpuTemperature());
+                //System.out.println("CPU Core Voltage  :  " + SystemInfo.getCpuVoltage());
+                //System.out.println("CPU Model Name    :  " + SystemInfo.getModelName());
+                //System.out.println("Processor         :  " + SystemInfo.getProcessor());
+                //System.out.println("Hardware Revision :  " + SystemInfo.getRevision());
+                //System.out.println("Is Hard Float ABI :  " + SystemInfo.isHardFloatAbi());
+                //System.out.println("Board Type        :  " + SystemInfo.getBoardType().name());
 	}
 }
 
