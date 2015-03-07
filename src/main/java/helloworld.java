@@ -11,6 +11,9 @@ import java.text.ParseException;
 public class helloworld {
 	public static void main(String[] args) throws InterruptedException, IOException, ParseException {
 		// display a few of the available system information properties
+                World world = new World();
+                System.out.println(world.greet());
+
                 System.out.println("----------------------------------------------------");
                 System.out.println("HARDWARE INFO");
                 System.out.println("----------------------------------------------------");
