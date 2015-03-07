@@ -69,7 +69,7 @@ set CMD_LINE_ARGS=%$
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\frozen_butter.jar;%APP_HOME%\lib\slf4j-api-1.7.7.jar;%APP_HOME%\lib\gson-2.3.jar;%APP_HOME%\lib\pi4j-core-0.0.5.jar;%APP_HOME%\lib\pi4j-native-0.0.5-hard-float.so;%APP_HOME%\lib\pi4j-native-0.0.5-soft-float.so
+set CLASSPATH=%APP_HOME%\lib\frozen_butter.jar;%APP_HOME%\lib\pi4j-core.jar;%APP_HOME%\lib\slf4j-api-1.7.7.jar;%APP_HOME%\lib\gson-2.3.jar
 
 @rem Execute frozen_butter
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %FROZEN_BUTTER_OPTS%  -classpath "%CLASSPATH%" net.frozen_butter.helloworld.helloworld %CMD_LINE_ARGS%

@@ -65,7 +65,7 @@ cd "`dirname \"$PRG\"`/.." >&-
 APP_HOME="`pwd -P`"
 cd "$SAVED" >&-
 
-CLASSPATH=$APP_HOME/lib/frozen_butter.jar:$APP_HOME/lib/slf4j-api-1.7.7.jar:$APP_HOME/lib/gson-2.3.jar:$APP_HOME/lib/pi4j-core-0.0.5.jar:$APP_HOME/lib/pi4j-native-0.0.5-hard-float.so:$APP_HOME/lib/pi4j-native-0.0.5-soft-float.so
+CLASSPATH=$APP_HOME/lib/frozen_butter.jar:$APP_HOME/lib/pi4j-core.jar:$APP_HOME/lib/slf4j-api-1.7.7.jar:$APP_HOME/lib/gson-2.3.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then
